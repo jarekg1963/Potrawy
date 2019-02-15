@@ -1,0 +1,30 @@
+{
+  "HEADER": {
+    "LANGUAGE_POLISH": "Język polski",
+    "LANGUAGE_ENGLISH": "Język angielski"
+  },
+  "BODY": {
+    "MY_BALANCE_OF_THE_DAY": "Mój bilans dnia.",
+    "CALORIES": "Kalorie",
+    "CARBOHYDRATES": "Węglowodany",
+    "PROTEINS": "Białko",
+    "FATS": "Tłuszcze",
+    "CHOOSE_A_MEAL_TIME_AND_ADD_PRODUCTS": "Wybierz czas posiłku i dodaj produkty",
+    "COUNT_CALORIES_AND_CHECK_YOUR_DUMMIES_NUTRIENT_BALANCE_SHEETS": "Policz kalorie i bilans składników odżywczych w produktach",
+    "BREAKFAST": "Śniadanie",
+    "SECOND_BREAKFAST": "Drugie niadanie",
+    "LUNCH": "Obiad/Lunch",
+    "TEA": "Podwieczorek",
+    "DINNER": "Kolacja",
+    "ELEVENSES": "Przekąska"
+  },
+  "SIDEBAR": {
+    "NAVIGATION": "Nawigacja",
+    "DASHBOARD": "Dashboard",
+    "MY_PRODUCT_LIST": "Lista produktów",
+    "SEASONAL_PRODUCTS": "Produkty sezonowe",
+    "NOTES": "Notatki",
+    "MY_DISHES": "Moje potrawy",
+    "MY_PRODUCTS": "Moje produkty"
+  }
+}

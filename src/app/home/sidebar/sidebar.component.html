@@ -1,0 +1,52 @@
+<section class="sidebar" fxFlex="220px">
+  <div class="main-menu-header">
+    <div fxLayout='row' fxFlex="200px">
+      <div fxFlex="33%">
+        <button mat-mini-fab>
+          <mat-icon color="primary">message</mat-icon>
+        </button>
+      </div>
+      <div fxFlex="33%">
+        <button mat-mini-fab>
+          <mat-icon>favorite</mat-icon>
+        </button>
+      </div>
+      <div fxFlex="33%">
+        <button mat-mini-fab>
+          <mat-icon>list</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="main-menu">
+    <mat-list>
+      <h3 mat-subheader>{{'SIDEBAR.NAVIGATION' | translate: lang}}</h3>
+      <mat-list-item>
+        <mat-icon mat-list-icon>dashboard</mat-icon>
+        <h4 mat-line>
+          <a [routerLink]="['dashboard']">{{'SIDEBAR.DASHBOARD' | translate: lang}}</a>
+        </h4>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon mat-list-icon>restaurant</mat-icon>
+        <h4 mat-line>
+          <a [routerLink]="['dish']">{{'SIDEBAR.MY_DISHES' | translate: lang}}</a>
+        </h4>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon mat-list-icon>fastfood</mat-icon>
+        <h4 mat-line>
+          <a [routerLink]="['product']">{{'SIDEBAR.MY_PRODUCTS' | translate: lang}}</a>
+        </h4>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <h3 mat-subheader>Notes</h3>
+      <mat-list-item>
+        <mat-icon mat-list-icon>note</mat-icon>
+        <h4 mat-line>
+          <a href="#">{{'SIDEBAR.NOTES' | translate: lang}}</a>
+        </h4>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</section>

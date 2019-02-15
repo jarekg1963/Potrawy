@@ -1,0 +1,30 @@
+{
+  "HEADER": {
+    "LANGUAGE_POLISH": "Polish",
+    "LANGUAGE_ENGLISH": "English"
+  },
+  "BODY": {
+    "MY_BALANCE_OF_THE_DAY": "My balance of the day.",
+    "CALORIES": "Calories",
+    "CARBOHYDRATES": "Carbohydrates",
+    "PROTEINS": "Proteins",
+    "FATS": "Fats",
+    "CHOOSE_A_MEAL_TIME_AND_ADD_PRODUCTS": "Choose a meal time and add products",
+    "COUNT_CALORIES_AND_CHECK_YOUR_DUMMIES_NUTRIENT_BALANCE_SHEETS": "Count calories and balance nutrients in products",
+    "BREAKFAST": "Breakfast",
+    "SECOND_BREAKFAST": "Second breakfast",
+    "LUNCH": "Lunch",
+    "TEA": "Tea",
+    "DINNER": "Dinner",
+    "ELEVENSES": "Elevenses"
+  },
+  "SIDEBAR": {
+    "NAVIGATION": "Navigation",
+    "DASHBOARD": "Dashboard",
+    "MY_PRODUCT_LIST": "My product list",
+    "SEASONAL_PRODUCTS": "Seasonal products",
+    "NOTES": "Notes",
+    "MY_DISHES": "My dishes",
+    "MY_PRODUCTS": "My products"
+  }
+}

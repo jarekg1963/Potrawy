@@ -1,0 +1,28 @@
+<mat-card-header>
+  <div mat-card-avatar>
+    <mat-icon mat-list-icon>accessibility</mat-icon>
+  </div>
+  <mat-card-title>{{'BODY.MY_BALANCE_OF_THE_DAY' | translate: lang}}</mat-card-title>
+  <mat-card-subtitle>
+    <mat-chip-list>
+      <mat-chip>{{'BODY.CALORIES' | translate: lang}}: 2500</mat-chip>
+      <mat-chip>{{'BODY.CARBOHYDRATES' | translate: lang}}: 120</mat-chip>
+      <mat-chip color="primary" selected="true">{{'BODY.PROTEINS' | translate: lang}}: 23</mat-chip>
+      <mat-chip color="accent" selected="true">{{'BODY.FATS' | translate: lang}}: 340</mat-chip>
+    </mat-chip-list>
+  </mat-card-subtitle>
+</mat-card-header>
+<mat-card-content>
+  <p>
+      {{'BODY.CHOOSE_A_MEAL_TIME_AND_ADD_PRODUCTS' | translate: lang}}.
+      {{'BODY.COUNT_CALORIES_AND_CHECK_YOUR_DUMMIES_NUTRIENT_BALANCE_SHEETS' | translate: lang}}
+  </p>
+  <mat-tab-group>
+    <mat-tab label="{{'BODY.BREAKFAST' | translate: lang}}">Content 1</mat-tab>
+    <mat-tab label="{{'BODY.SECOND_BREAKFAST' | translate: lang}}">Content 2</mat-tab>
+    <mat-tab label="{{'BODY.LUNCH' | translate: lang}}">Content 2</mat-tab>
+    <mat-tab label="{{'BODY.TEA' | translate: lang}}">Content 2</mat-tab>
+    <mat-tab label="{{'BODY.DINNER' | translate: lang}}">Content 2</mat-tab>
+    <mat-tab label="{{'BODY.ELEVENSES' | translate: lang}}">Content 2</mat-tab>
+  </mat-tab-group>
+</mat-card-content>
